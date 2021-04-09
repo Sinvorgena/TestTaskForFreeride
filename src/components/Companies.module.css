@@ -1,0 +1,66 @@
+.page{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "select"
+"table"
+"paginator";
+}
+.CompanySelect{
+    grid-area: select;
+    padding: 5px 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #d6cbd3;
+    border-color: black;
+    border-radius: 5px;
+}
+.CompanySelect:focus{
+    outline: none;
+}
+
+.paginatorBox{
+    grid-area: paginator;
+    position: fixed;
+    top: 90%;
+    left: 45%;
+}
+
+.table{
+    grid-area: table;
+    margin: 0 auto 10px;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+.table td{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.tdAdress{
+    text-align: left;
+}
+.button{
+    font-size: 20px;
+    margin: 0 2px 0;
+    background: none;
+    padding: 10px 15px;
+    transform: translate(0 0);
+    transition: all 0.2s;
+    border-radius: 5px;
+}
+.button:active{
+    outline: none;
+    transition: all 0.2s;
+}
+.buttonRigth{
+}
+.buttonLeft{
+}
+.buttonRigth:active{
+    transform: translateX(10px);
+}
+.buttonLeft:active{
+    transform: translate(-10px);
+}

@@ -1,0 +1,33 @@
+.input{
+    background: #d6cbd3;
+    margin: 0 0 5px 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #deeaee;
+}
+.input:focus{
+    outline: none;
+
+}
+.loginBtn{
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: none;
+    border: 1px solid white;
+    top: 0;
+    transition:  all 0.1s;
+    text-transform: uppercase;
+
+}
+.loginBtn:active{
+    outline: none;
+    border: 1px solid white;
+    position: relative;
+    top: 3px;
+    transition:  all 0.1s;
+}
+.loginBtn:focus{
+    outline: none;
+}

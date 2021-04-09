@@ -1,7 +1,7 @@
 import * as axios from "axios";
 
 const instanse = axios.create({
-    baseURL: "https://test-alpha.reestrdoma.ru/api/",
+    baseURL: "http://test-alpha.reestrdoma.ru/api/",
     withCredentials: true
 
 })
